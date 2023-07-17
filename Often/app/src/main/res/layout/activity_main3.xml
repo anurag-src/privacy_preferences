@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:text="How many times do you want to recieve a notification?"
+        tools:textSize="12sp" />
+
+    <RadioGroup
+        android:id="@+id/frequencyRG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/action_drawer_item_icon_size"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="100dp"
+        tools:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/DailyRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily"
+            tools:layout_marginTop="@dimen/action_drawer_item_icon_size" />
+
+        <RadioButton
+            android:id="@+id/TwiceRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Twice per day" />
+
+        <RadioButton
+            android:id="@+id/WeeklyRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weekly" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:text="Start Activity"
+        android:textSize="10sp" />
+
+</androidx.wear.widget.BoxInsetLayout>

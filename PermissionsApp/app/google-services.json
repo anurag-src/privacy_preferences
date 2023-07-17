@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "290125483958",
+    "project_id": "permission-app-2b959",
+    "storage_bucket": "permission-app-2b959.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290125483958:android:37fcb0f2bcab81fb9b3b17",
+        "android_client_info": {
+          "package_name": "com.example.permissionsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290125483958-e1dgp1qmk9omfpn7e6d4rprunerkdtaj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBid_3ISkLa-HAN_js6HMq-BwkR02ZIGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290125483958-e1dgp1qmk9omfpn7e6d4rprunerkdtaj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
